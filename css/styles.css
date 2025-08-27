@@ -22,7 +22,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -105,7 +105,7 @@ button {
   clip-path: inset(100%);
 }
 
-.characteristic-text {
+.characteristic-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -122,12 +122,17 @@ button {
   color: #434455;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -142,7 +147,11 @@ button {
   color: #2e2f42;
 }
 
-.team-desс {
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-desc {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -157,7 +166,17 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -179,7 +198,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
@@ -192,6 +211,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  text-transform: uppercase;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
